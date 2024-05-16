@@ -9,7 +9,6 @@
 
     @include respond(tab-port) {
         padding: 2rem;
-
     }
 
     &__icon {
@@ -17,12 +16,12 @@
         margin-bottom: .5rem;
         background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
         -webkit-background-clip: text;
+        background-clip: text;
         color: transparent;
 
         @include respond(tab-port) {
             font-size: 7rem;
             margin: 0;
-            
         }
     
     }
